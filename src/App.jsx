@@ -31,11 +31,11 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-indigo-50">
+    <div className="min-h-screen bg-linear-to-b from-purple-50 to-indigo-50">
       {/* Navbar */}
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
         <div className="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
-          <div className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
+          <div className="text-3xl font-bold bg-linear-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
             Interncred
           </div>
           <div className="hidden md:flex space-x-10">
@@ -69,7 +69,7 @@ function App() {
           transition={{ duration: 1 }}
           className="max-w-5xl mx-auto"
         >
-          <h1 className="text-5xl md:text-7xl font-extrabold mb-8 bg-gradient-to-r from-purple-700 to-indigo-700 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-extrabold mb-8 bg-linear-to-r from-purple-700 to-indigo-700 bg-clip-text text-transparent">
             Launch Your Frontend Career
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-3xl mx-auto">
@@ -81,7 +81,7 @@ function App() {
             <motion.a
               href="#contact"
               whileHover={{ scale: 1.05 }}
-              className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white px-12 py-6 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transition-all"
+              className="bg-linear-to-r from-purple-600 to-indigo-600 text-white px-12 py-6 rounded-full font-bold text-lg shadow-xl hover:shadow-2xl transition-all"
             >
               Start Your Journey
             </motion.a>
@@ -125,7 +125,7 @@ function App() {
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: i * 0.2 }}
-                className="bg-gradient-to-br from-white to-purple-50 p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all border border-purple-100"
+                className="bg-linear-to-br from-white to-purple-50 p-10 rounded-3xl shadow-xl hover:shadow-2xl transition-all border border-purple-100"
               >
                 <feature.icon className="text-6xl text-purple-600 mb-6 mx-auto" />
                 <h3 className="text-2xl font-bold mb-4 text-purple-800">
@@ -141,7 +141,7 @@ function App() {
       {/* Testimonials */}
       <section
         id="testimonials"
-        className="py-24 px-6 bg-gradient-to-b from-indigo-50 to-purple-50"
+        className="py-24 px-6 bg-linear-to-b from-indigo-50 to-purple-50"
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 text-purple-800">
@@ -216,7 +216,7 @@ function App() {
             />
             <button
               type="submit"
-              className="w-full bg-gradient-to-r from-purple-600 to-indigo-600 text-white py-5 rounded-xl font-bold text-xl shadow-lg hover:shadow-xl transition-all"
+              className="w-full bg-linear-to-r from-purple-600 to-indigo-600 text-white py-5 rounded-xl font-bold text-xl shadow-lg hover:shadow-xl transition-all"
             >
               Get Started
             </button>
@@ -248,7 +248,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-r from-purple-900 to-indigo-900 text-white py-12 text-center">
+      <footer className="bg-linear-to-r from-purple-900 to-indigo-900 text-white py-12 text-center">
         <p>© {new Date().getFullYear()} Interncred Fellowship Program</p>
       </footer>
     </div>
