@@ -233,7 +233,7 @@ function App() {
             <p className="text-lg text-gray-700 mb-4">Or reach out directly:</p>
             <div className="flex justify-center space-x-10 text-5xl">
               <a
-                href="https://wa.me/233YOURNUMBER"
+                href="https://wa.me/233554539994"
                 target="_blank"
                 rel="noopener noreferrer"
               >
