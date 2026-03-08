@@ -61,7 +61,6 @@ function App() {
         </div>
       </nav>
 
-      {/* Hero Section */}
       <section className="pt-32 pb-24 px-6 text-center">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -96,7 +95,6 @@ function App() {
         </motion.div>
       </section>
 
-      {/* Features */}
       <section id="features" className="py-24 px-6 bg-white">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl font-bold text-center mb-16 text-purple-800">
@@ -138,7 +136,6 @@ function App() {
         </div>
       </section>
 
-      {/* Testimonials */}
       <section
         id="testimonials"
         className="py-24 px-6 bg-linear-to-b from-indigo-50 to-purple-50"
@@ -192,7 +189,6 @@ function App() {
         </div>
       </section>
 
-      {/* Contact / Subscribe */}
       <section id="contact" className="py-24 px-6 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-5xl font-bold mb-8 text-purple-800">
@@ -247,7 +243,6 @@ function App() {
         </div>
       </section>
 
-      {/* Footer */}
       <footer className="bg-linear-to-r from-purple-900 to-indigo-900 text-white py-12 text-center">
         <p>© {new Date().getFullYear()} Interncred Fellowship Program</p>
       </footer>
