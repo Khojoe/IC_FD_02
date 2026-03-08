@@ -228,13 +228,6 @@ function App() {
           <div className="mt-12">
             <p className="text-lg text-gray-700 mb-4">Or reach out directly:</p>
             <div className="flex justify-center space-x-10 text-5xl">
-              <a
-                href="https://interncred.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {/*<BsWhatsapp className="text-green-600 hover:text-green-700 transition" />*/}
-              </a>
               <a href="mailto:info@interncred.com">
                 <FaEnvelope className="text-purple-600 hover:text-purple-700 transition" />
               </a>
